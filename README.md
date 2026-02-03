@@ -1,4 +1,4 @@
-# 📦 Projet Python – Scraping Web & Gestion de Stock
+# Projet Python – Scraping Web & Gestion de Stock
 
 Ce dépôt contient **deux programmes Python indépendants** réalisés dans le cadre d’un exercice / examen :
 1. Un script de **scraping web** avec `requests` et `BeautifulSoup`
@@ -6,9 +6,9 @@ Ce dépôt contient **deux programmes Python indépendants** réalisés dans le 
 
 ---
 
-## 🧩 1. Script de Scraping Web
+## 1. Script de Scraping Web
 
-### 🎯 Objectif
+###  Objectif
 Récupérer automatiquement des informations depuis une page web locale :
 - images
 - titres
@@ -18,19 +18,19 @@ Récupérer automatiquement des informations depuis une page web locale :
 
 ---
 
-### 🛠️ Technologies utilisées
+### Technologies utilisées
 - Python 3
 - `requests`
 - `beautifulsoup4`
 
 ---
 
-### 📁 Fichier concerné
+###  Fichier concerné
 - `scriping.py`
 
 ---
 
-### 🌐 Prérequis
+###  Prérequis
 - Avoir un fichier `index.html`
 - Lancer un serveur local (ex: **Live Server sur VS Code**)
 - URL utilisée :
@@ -39,7 +39,7 @@ http://127.0.0.1:5500/index.html
 
 ---
 
-### ⚙️ Fonctionnalités
+###  Fonctionnalités
 - Connexion à une page HTML locale
 - Extraction des balises `<img>`
 - Extraction des titres `<h3>` dans les sections `.card-service`
@@ -49,17 +49,17 @@ http://127.0.0.1:5500/index.html
 
 ---
 
-### ▶️ Exécution
+###  Exécution
 python scriping.py
 
- # 📊 Application de Gestion de Stock en Python
+ #  Application de Gestion de Stock en Python
 
 Cette application est un programme **console** développé en Python permettant de gérer un stock de produits.  
 Elle permet d’enregistrer les produits, les entrées et sorties de stock, et de consulter l’état du stock en temps réel.
 
 ---
 
-## 🎯 Objectifs du programme
+##  Objectifs du programme
 - Gérer des produits avec un prix et un seuil d’alerte
 - Suivre les entrées et sorties de stock
 - Calculer automatiquement le stock disponible
@@ -68,47 +68,47 @@ Elle permet d’enregistrer les produits, les entrées et sorties de stock, et d
 
 ---
 
-## 🛠️ Technologies utilisées
+##  Technologies utilisées
 - Python 3
 - Module standard `datetime`
 
 ---
 
-## 📁 Fichier principal
+##  Fichier principal
 - `gestion_stock.py` *(nom à adapter selon ton fichier)*
 
 ---
 
-## ⚙️ Fonctionnalités
+##  Fonctionnalités
 
-### ➕ Ajouter un produit
+###  Ajouter un produit
 - Nom du produit
 - Prix unitaire
 - Seuil d’alerte
 
-### 📥 Entrée de stock
+###  Entrée de stock
 - Nom du produit
 - Quantité entrée
 - Fournisseur
 - Date automatique
 
-### 📤 Sortie de stock
+###  Sortie de stock
 - Nom du produit
 - Quantité sortie
 - Motif (vente, perte, etc.)
 - Vérification du stock disponible
 
-### 📦 Affichage du stock
+###  Affichage du stock
 - Stock calculé dynamiquement
 - Alerte si le stock est inférieur ou égal au seuil
 
-### 📜 Historique
+###  Historique
 - Liste des entrées de stock
 - Liste des sorties de stock
 - Dates enregistrées automatiquement
 
 ---
-## 📋 Structure des données
+##  Structure des données
 
 Toutes les données sont conservées **en mémoire** sous forme de dictionnaires et de listes.
 
